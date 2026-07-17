@@ -527,7 +527,7 @@ export default function SpanDetail(props: SpanDetailProps) {
             traceToProfilesOptions={traceToProfilesOptions}
             timeRange={timeRange}
             app={app}
-            shareButton={<ShareSpanButton focusSpanLink={focusSpanLink} />}
+            focusSpanLink={focusSpanLink}
           />
         </div>
         <div className={styles.listWrapper}>
